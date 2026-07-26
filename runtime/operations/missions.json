@@ -12,5 +12,19 @@
         "objective": "Validate integrated subsystem",
         "status": "CREATED",
         "created": "2026-07-26T09:59:23.771352"
+    },
+    {
+        "id": 3,
+        "name": "Operations Fabric Validation",
+        "objective": "Validate integrated subsystem",
+        "status": "CREATED",
+        "created": "2026-07-26T10:00:58.705153"
+    },
+    {
+        "id": 4,
+        "name": "Operations Fabric Validation",
+        "objective": "Validate integrated subsystem",
+        "status": "CREATED",
+        "created": "2026-07-26T10:01:44.228889"
     }
 ]
