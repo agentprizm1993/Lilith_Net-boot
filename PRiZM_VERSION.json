@@ -1,15 +1,14 @@
 {
-    "version": "5.0",
+    "version": "6.0",
     "checkpoint": "1101",
-    "status": "Platform Core State",
+    "status": "Adaptive Intelligence State",
     "components": [
-        "Identity Semantic Engine",
-        "Identity Graph",
-        "Universal Context Graph",
-        "Mission Intelligence",
-        "Analytics Intelligence",
-        "Plugin Ecosystem",
-        "PRiZM Platform Core",
-        "L.I.L.I.T.H. Core"
+        "Reflection Engine",
+        "Knowledge Graph Engine",
+        "Decision Intelligence",
+        "Sentinel Governance AI",
+        "Advanced Memory Fabric",
+        "Cross-System Learning Loop",
+        "L.I.L.I.T.H. Intelligence Runtime"
     ]
 }
