@@ -93,10 +93,15 @@ class AnalyticsEngine:
         ) as file:
 
             return {
+
                 "engine": self.name,
+
                 "version": self.version,
+
                 "status": self.status,
+
                 "events": json.load(file)
+
             }
 
 
