@@ -1,23 +1,34 @@
+from core.registry import EngineRegistry
+
+
 class Kernel:
 
+    def __init__(self):
+        self.registry = EngineRegistry()
+
     def boot(self):
+
         print("================================")
-        print("PRiZM v0.1")
+        print("PRiZM v0.2")
         print("Checkpoint: 1101")
         print("================================")
 
-        services = [
-            "Kernel",
-            "Registry",
-            "Trust",
-            "Integrity",
-            "Memory",
-            "Observability"
-        ]
-
-        for service in services:
-            print(f"{service:<20} ONLINE")
+        self.load_engines()
 
         print()
-        print("STATUS: READY")
+        print("STATUS: OPERATIONAL")
         print("CHECKPOINT: 1101")
+
+
+    def load_engines(self):
+
+        engines = [
+            "Trust Engine",
+            "Integrity Engine",
+            "Memory Engine",
+            "Observability Engine"
+        ]
+
+        for engine in engines:
+            self.registry.register(engine, True)
+            print(f"{engine:<25} INITIALIZED")
