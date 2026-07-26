@@ -1,0 +1,17 @@
+{
+    "nodes": {
+        "L.I.L.I.T.H.": {
+            "type": "Runtime Intelligence"
+        },
+        "Reasoning Engine": {
+            "type": "Intelligence Module"
+        }
+    },
+    "relationships": [
+        {
+            "source": "L.I.L.I.T.H.",
+            "relation": "uses",
+            "target": "Reasoning Engine"
+        }
+    ]
+}
