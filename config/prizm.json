@@ -1,0 +1,9 @@
+{
+  "name": "PRiZM",
+  "version": "1.1",
+  "checkpoint": "1101",
+  "boot_mode": "normal",
+  "logging": true,
+  "memory": true,
+  "forge": true
+}
