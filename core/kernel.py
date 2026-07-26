@@ -1,10 +1,15 @@
 from core.registry import EngineRegistry
 
 
+from core.event_bus import EventBus
+
+
 class Kernel:
 
     def __init__(self):
+        
         self.registry = EngineRegistry()
+        self.event_bus = EventBus()
 
     def boot(self):
 
