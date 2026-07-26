@@ -1,11 +1,12 @@
 {
-    "version": "2.0",
+    "version": "3.2",
     "checkpoint": "1101",
-    "status": "Genesis Upgrade Installed",
+    "status": "Operational Evolution State",
     "components": [
-        "Memory Bridge",
-        "Agent Registry",
-        "Plugin Loader",
-        "LILITH Core Expansion"
+        "Governance Engine",
+        "Trust Fabric",
+        "Integrity Guard",
+        "Capability Runtime",
+        "L.I.L.I.T.H. Core"
     ]
 }
