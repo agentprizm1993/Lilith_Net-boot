@@ -1,5 +1,11 @@
 {
     "L.I.L.I.T.H. Runtime": {
         "status": "ONLINE"
+    },
+    "Module Loader": {
+        "status": "ONLINE"
+    },
+    "Service Registry": {
+        "status": "ONLINE"
     }
 }
