@@ -5,5 +5,12 @@
         "objective": "Complete integrated operations subsystem",
         "status": "CREATED",
         "created": "2026-07-26T09:52:51.413114"
+    },
+    {
+        "id": 2,
+        "name": "Operations Fabric Validation",
+        "objective": "Validate integrated subsystem",
+        "status": "CREATED",
+        "created": "2026-07-26T09:59:23.771352"
     }
 ]
